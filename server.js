@@ -10,7 +10,7 @@ app.use(cors({
   origin: [
     'http://localhost:5173',        // Vite dev
     'http://localhost:3000',        // CRA dev
-    'https://https://innovatechai.io/' // <- replace with your real domain
+    'https://innovatechai.io/' // <- replace with your real domain
   ],
   methods: ['POST']
 }));
